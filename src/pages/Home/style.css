@@ -1,0 +1,43 @@
+.content { 
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background {
+  height: 80vh;
+  position: absolute;
+  left: 0;
+}
+
+.info {
+  width: 60%;
+  margin-top: 40px;
+  margin-right: 90px;
+  color: rgba(250, 235, 215, 0.718);
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px; 
+    background-color: transparent;
+    min-width: 250px;
+    width: 70%;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 12px;
+    color: #999999;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px; 
+    color: #999999;
+    background: #2D333B;
+    min-width: 90px;
+    width: 25%;
+    font-size: 18px;
+    padding: 10px;
+}

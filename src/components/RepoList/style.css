@@ -1,0 +1,49 @@
+
+.repoListComponent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: start;
+    margin: 40px 0px;
+}
+
+.repoListComponent  h4 {
+    font-family: 'Kailasa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.repoListComponent hr {
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.repoItem strong {
+
+    font-family: 'Kailasa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+
+
+    color: #539BF5;
+}
+
+.repoItem p {
+
+    font-family: 'Kailasa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
